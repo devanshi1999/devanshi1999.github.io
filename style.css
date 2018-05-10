@@ -1,0 +1,59 @@
+body, html {
+	
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+h1 {
+	color: white;
+	font-family: Courier New; 
+	text-shadow: 3px 2px grey;
+	font-size: 60px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div {
+	width: 210px;
+	height: 245px;
+	border-left: 10px blue;
+	background-image: url("3.jpg");
+	font-family: georgia;
+	font-size: 55 px;
+	-webkit-transition: width 2s;
+    transition: width 2s;
+}
+div:hover {
+    width: 500px;
+}
+.img1 {
+	float: right;
+	border: solid white;
+}
+.clearfix { 
+	overflow: auto;
+}
+p{
+	font-family: arial;
+}
+.p1 {
+	text-align: center;
+}
+.p2 {
+	text-align: left;
+	font-size: 70px;
+	-webkit-column-span: all;
+	column-span: all;
+}
+.p3 {
+	font-family: arial;
+	column-count: 4;
+	column-gap: 50px;
+	column-rule: 2px solid lightblue;
+	font-size: 20px;
+}
