@@ -4,10 +4,7 @@ body, html {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	background-size: cover;
-	max-width: 100%;
-        height: auto;
-
+	background-size: contain;
 }
 h1 {
 	color: white;
