@@ -52,6 +52,9 @@ p{
 td{
     border: 1px solid black;
 }
+table{
+	font-size: 30px;
+}
 @media only screen and (max-width: 600px) {
     body {
         background-image: url("5.jpg");
