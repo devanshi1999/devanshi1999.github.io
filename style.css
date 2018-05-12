@@ -49,12 +49,8 @@ p{
 	-webkit-column-span: all;
 	column-span: all;
 }
-.p3 {
-	font-family: arial;
-	column-count: 4;
-	column-gap: 50px;
-	column-rule: 2px solid lightblue;
-	font-size: 20px;
+td{
+    border: 1px solid black;
 }
 @media only screen and (max-width: 600px) {
     body {
